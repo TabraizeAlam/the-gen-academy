@@ -1,0 +1,22 @@
+company:
+  name: TechCorp Solutions
+  policy_start_date: "2025-01-06"
+  grace_period_weeks: 0
+
+policy:
+  required_office_days: 3
+  min_login_duration_minutes: 30
+  work_week_days: 5
+
+office_ip_prefixes:
+  - "10.0."
+
+# Required office days based on vacation/leave days taken in that week.
+# Scales down only when an employee has 3+ leave days (per policy spec).
+leave_adjusted_requirements:
+  0: 3
+  1: 3
+  2: 3
+  3: 2
+  4: 1
+  5: 0

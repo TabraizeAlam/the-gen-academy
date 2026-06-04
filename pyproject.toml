@@ -1,0 +1,15 @@
+[project]
+name = "attendance-tracking-system"
+version = "0.1.0"
+description = "WFH-to-WFO Transition Attendance Tracking Dashboard"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.32.0",
+    "pandas>=2.1.0",
+    "plotly>=5.18.0",
+    "pyyaml>=6.0.1",
+    "openpyxl>=3.1.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["utils"]

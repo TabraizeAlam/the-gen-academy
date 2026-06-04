@@ -1,0 +1,16 @@
+employee_id,full_name,email,department,team,team_id,manager_id,role,hire_date
+E01,Alice Sharma,alice.sharma@techcorp.com,Engineering,Frontend Engineering,T01,,manager,2021-03-15
+E02,Ben Carter,ben.carter@techcorp.com,Engineering,Frontend Engineering,T01,E01,employee,2022-08-01
+E03,Chloe Nguyen,chloe.nguyen@techcorp.com,Engineering,Frontend Engineering,T01,E01,employee,2022-11-14
+E04,David Kim,david.kim@techcorp.com,Engineering,Frontend Engineering,T01,E01,senior_employee,2020-06-22
+E05,Eva Patel,eva.patel@techcorp.com,Engineering,Frontend Engineering,T01,E01,employee,2023-02-07
+E06,Frank Liu,frank.liu@techcorp.com,Engineering,Backend Engineering,T02,,manager,2020-09-01
+E07,Grace Osei,grace.osei@techcorp.com,Engineering,Backend Engineering,T02,E06,employee,2022-04-18
+E08,Henry Walsh,henry.walsh@techcorp.com,Engineering,Backend Engineering,T02,E06,employee,2021-12-05
+E09,Iris Johansson,iris.johansson@techcorp.com,Engineering,Backend Engineering,T02,E06,senior_employee,2019-07-30
+E10,Jake Torres,jake.torres@techcorp.com,Engineering,Backend Engineering,T02,E06,employee,2023-05-15
+E11,Karen Mitchell,karen.mitchell@techcorp.com,Operations,HR & Finance,T03,,manager,2018-11-12
+E12,Liam Fernandez,liam.fernandez@techcorp.com,Operations,HR & Finance,T03,E11,employee,2021-07-19
+E13,Mia Thompson,mia.thompson@techcorp.com,Operations,HR & Finance,T03,E11,employee,2022-03-28
+E14,Noah Patel,noah.patel@techcorp.com,Operations,HR & Finance,T03,E11,employee,2023-08-21
+E15,Olivia Brown,olivia.brown@techcorp.com,Operations,HR & Finance,T03,E11,senior_employee,2020-04-14
